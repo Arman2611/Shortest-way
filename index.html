@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shortest way</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="scripts/script.js" defer></script>
+</head>
+<body>
+	<div class="lside">
+		<img src="images/graph.png" alt="">
+	</div>
+	<div class="rside">
+		<p class="rside-header">
+			Please enter which nodes you want to calculate the shortest way for.
+		</p>
+		<div class="label-box">
+			<label class="node-label">
+				<input type="number" id="node1" min="1" value="1">
+				<span class="node-info">First node number</span>
+			</label>
+			<label class="node-label">
+				<input type="number" id="node2" min="1" value="1">
+				<span class="node-info">Second node number</span>
+			</label>
+		</div>
+		<p id="answer-field">Answer will be written here</p>
+		<button id="solve-btn">solve</button>
+	</div>
+</body>
+</html>
